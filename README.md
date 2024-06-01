@@ -1,6 +1,6 @@
 # utils3d
 
-A package for 3D utilities!
+This Python package provides a collection of utilities for working with 3D data!
 
 ## Installation
 
