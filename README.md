@@ -10,7 +10,20 @@ $ pip install utils3d
 
 ## Usage
 
-- TODO
+`utils3d` can be used to perform various actions on your 3d data. One of them is converting the 3D point cloud data into a 2D depth image and that can be achieved as follows:
+```python
+from utils3d.utils3d import pctodepthimage
+
+path = "pointclouds/um_000000.pcd" # path to your point cloud file
+extrinsics = [] # 3x4 numpy array containing the extrinsic parameters (dummy available in tests/test_utils3d.py)
+intrinsics = [] # 3x3 numpy array containing the ixtrinsic parameters (dummy available in tests/test_utils3d.py)
+height = 512 # height of your depth image
+width = 1382 # width of your depth image
+scaling_factor = 0.15 # scaling factor manipulates the intensity of the pixels of your image
+
+depth_image = pctodepthimage(path, extrinsics, intrinsics, height, width, scaling_factor)
+depth_image.show()
+```
 
 ## Contributing
 
