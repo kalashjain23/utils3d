@@ -13,6 +13,10 @@ pillow = "^10.3.0"
 open3d = "^0.18.0"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
 [tool.semantic_release]
 version_toml = [
     "pyproject.toml:tool.poetry.version",
