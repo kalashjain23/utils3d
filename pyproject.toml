@@ -16,6 +16,7 @@ open3d = "^0.18.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.1"
+jupyter = "^1.0.0"
 
 [tool.semantic_release]
 version_toml = [
