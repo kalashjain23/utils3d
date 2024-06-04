@@ -35,7 +35,7 @@ def pctodepthimage(path: str,
         
     Examples
     --------
-    >>> from utils3d.utils3d import pctodepthimage
+    >>> from utils3d.pctodepthimage import pctodepthimage
     >>> depth_image = pctodepthimage(path, extrinsics, intrinsics, height, width, 0.15)
     >>> depth_image.show()
     """
