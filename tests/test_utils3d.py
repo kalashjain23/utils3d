@@ -1,6 +1,6 @@
-from utils3d import utils3d
+# from utils3d import pctodepthimage
 import numpy as np
-from utils3d.utils3d import pctodepthimage
+from utils3d.pctodepthimage import pctodepthimage
 import PIL
 
 def test_pctodepthimage():
