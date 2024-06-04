@@ -16,7 +16,7 @@ from utils3d.pctodepthimage import pctodepthimage
 
 path = "pointclouds/um_000000.pcd" # path to your point cloud file
 extrinsics = [] # 3x4 numpy array containing the extrinsic parameters (dummy available in tests/test_utils3d.py)
-intrinsics = [] # 3x3 numpy array containing the ixtrinsic parameters (dummy available in tests/test_utils3d.py)
+intrinsics = [] # 3x3 numpy array containing the intrinsic parameters (dummy available in tests/test_utils3d.py)
 height = 512 # height of your depth image
 width = 1382 # width of your depth image
 scaling_factor = 0.15 # scaling factor manipulates the intensity of the pixels of your image
